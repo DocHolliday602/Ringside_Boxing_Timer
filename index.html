@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en"
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Ringside Timer</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <div id="container">
+            <p id="min-label" class="label">Minutes</p><p id="sec-label" class="label">Seconds</p><p id="round-label" class="label">Rounds</p><p id="rest-label" class="label">Rest</p>
+            <input id="minutes" type="number" max="5" min="0" class="time"><p id="p1" class="semicolon">:</p><input id="seconds" type="number" max="60" min="0" class="time"><p id="p2" class="semicolon">:</p><input id="rounds" type="number" max="12" min="1" class="time"><p id="p3" class="semicolon"></p><input id="rest" type="number" max="60" min="30" class="time">
+
+        <button id="start-btn">Start</button>
+        <button id="reset-btn">Reset</button>
+    
+        <script src="index.js" type="module"></script>
+    </body>
